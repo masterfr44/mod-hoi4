@@ -1,0 +1,16 @@
+# Signet unique du mod. Les signets vanilla de 1936 et 1939 sont retirés
+# par replace_path = "common/bookmarks" dans descriptor.mod.
+bookmarks = {
+	bookmark = {
+		name = iro_bookmark_1919
+		desc = iro_bookmark_1919_desc
+		date = 1919.1.1.12
+		# Sprite vanilla en attendant une image propre au mod.
+		picture = GFX_select_date_1936
+		default = yes
+
+		"---" = {
+			history = iro_bookmark_1919_autres
+		}
+	}
+}

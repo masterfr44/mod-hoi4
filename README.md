@@ -20,6 +20,12 @@ The mod is open to everyone and free to modify. The only request is that you cre
 - Create a new style of gameplay.
 - Create new designs for countries and units.
 
+### Installation (local)
+
+1. Copy this repository into `Documents/Paradox Interactive/Hearts of Iron IV/mod/iron_order_mod/` (on Linux: `~/.local/share/Paradox Interactive/Hearts of Iron IV/mod/iron_order_mod/`).
+2. In the `mod/` folder, create `iron_order_mod.mod` with the content of `descriptor.mod` plus the line `path="mod/iron_order_mod"`.
+3. Enable the mod in the launcher. Targeted game version: 1.19.
+
 ---
 
 ## Français
@@ -37,3 +43,9 @@ Le mod est ouvert à tous et libre de modification. La seule demande est de me c
 - Faire vivre un univers que j'admire.
 - Créer un nouveau style de jeu.
 - Créer de nouveaux designs pour les pays et les unités.
+
+### Installation (locale)
+
+1. Copier ce dépôt dans `Documents/Paradox Interactive/Hearts of Iron IV/mod/iron_order_mod/` (sous Linux : `~/.local/share/Paradox Interactive/Hearts of Iron IV/mod/iron_order_mod/`).
+2. Dans le dossier `mod/`, créer `iron_order_mod.mod` avec le contenu de `descriptor.mod` et la ligne `path="mod/iron_order_mod"`.
+3. Activer le mod dans le lanceur. Version du jeu visée : 1.19.
