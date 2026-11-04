@@ -4,3 +4,4 @@ tags={
 }
 name="Iron Order Mod"
 supported_version="1.19.*"
+replace_path="common/bookmarks"

@@ -8,15 +8,14 @@ HOI4 1.19 (dernier correctif : 1.19.4.1, 29 octobre 2026, d'après la page *Patc
 
 ## Date de départ
 
-Décision en attente. Options présentées :
+**1er janvier 1919**, choisie par masterfr le 4 novembre 2026 (« ça permettra de commencer tranquillement une partie »). Le mois a été donné sans jour ; le 1er janvier est retenu par défaut.
 
-| Date | Situation |
-|---|---|
-| 11 novembre 1918 | Armistice de Rethondes ; révolution en Allemagne ; guerre civile russe |
-| 1er janvier 1918 | Guerre en cours ; Brest-Litovsk pas encore signé |
-| 3 mars 1918 | Traité de Brest-Litovsk ; la Russie sort de la guerre |
+Situation réelle à cette date : armistice du 11 novembre 1918 en vigueur, paix non signée (conférence de Paris ouverte le 18 janvier 1919), république allemande dirigée par le Conseil des commissaires du peuple d'Ebert, guerre civile russe, guerre polono-ukrainienne autour de Lwów.
 
-Tant que la date n'est pas fixée, le signet (`common/bookmarks/`) et l'override de `NDefines.NGame.START_DATE` (`common/defines/`) ne sont pas écrits.
+Mise en œuvre :
+- `common/defines/iro_defines.lua` : `NDefines.NGame.START_DATE` et `NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE` à `"1919.1.1.12"`.
+- `common/bookmarks/iro_1919.txt` : signet unique, les signets vanilla étant retirés par `replace_path="common/bookmarks"`.
+- `NDefines.NGame.END_DATE` reste à sa valeur vanilla (`"1949.1.1.1"`, date du tableau des scores final) : à décider.
 
 ## Historique de départ
 
