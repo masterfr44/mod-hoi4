@@ -8,6 +8,44 @@ bookmarks = {
 		# Sprite vanilla en attendant une image propre au mod.
 		picture = GFX_select_date_1936
 		default = yes
+		# La France est proposée par défaut : le mod est conçu en français.
+		default_country = FRA
+
+		# Les sept puissances majeures du 1er janvier 1919.
+		# L'idéologie affichée est celle du gouvernement à cette date ;
+		# l'historique de départ (history/) reste celui de 1936 pour l'instant.
+		FRA = {
+			history = iro_bookmark_1919_FRA
+			ideology = democratic
+		}
+		ENG = {
+			history = iro_bookmark_1919_ENG
+			ideology = democratic
+		}
+		USA = {
+			history = iro_bookmark_1919_USA
+			ideology = democratic
+		}
+		ITA = {
+			history = iro_bookmark_1919_ITA
+			ideology = democratic
+		}
+		# Monarchie constitutionnelle où le cabinet Hara gouverne avec le parti Seiyūkai,
+		# mais où l'armée et les genrō gardent la main : classé neutralité, comme en vanilla.
+		JAP = {
+			history = iro_bookmark_1919_JAP
+			ideology = neutrality
+		}
+		# Gouvernement provisoire SPD du Conseil des commissaires du peuple.
+		GER = {
+			history = iro_bookmark_1919_GER
+			ideology = democratic
+		}
+		# Le tag SOV représente ici la Russie soviétique (RSFSR) ; l'URSS n'existe qu'en 1922.
+		SOV = {
+			history = iro_bookmark_1919_SOV
+			ideology = communism
+		}
 
 		"---" = {
 			history = iro_bookmark_1919_autres
