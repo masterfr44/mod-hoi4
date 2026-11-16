@@ -5,8 +5,8 @@ bookmarks = {
 		name = iro_bookmark_1919
 		desc = iro_bookmark_1919_desc
 		date = 1919.1.1.12
-		# Sprite vanilla en attendant une image propre au mod.
-		picture = GFX_select_date_1936
+		# Image propre au mod, déclarée dans interface/iro_bookmarks.gfx.
+		picture = GFX_iro_select_date_1919
 		default = yes
 		# La France est proposée par défaut : le mod est conçu en français.
 		default_country = FRA

@@ -1,0 +1,7 @@
+spriteTypes = {
+	# Image du signet 1919 (180x104, encoche transparente en bas comme les signets vanilla).
+	spriteType = {
+		name = "GFX_iro_select_date_1919"
+		texturefile = "gfx/interface/bookmarks/iro_select_date_1919.dds"
+	}
+}
